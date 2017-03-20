@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "enter the filename"
+read s
+if [ -w $s]
+then
+echo "permission accessed"
+echo "write text:"
+cat  >> $s
+else
+echo "permission declined"

@@ -1,0 +1,4 @@
+echo "enter the filename"
+read s
+$s.close();
+fi
